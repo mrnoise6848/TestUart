@@ -84,6 +84,6 @@ If you encounter any issues with the project, please check the following:
 - Review the logs for detailed error information.
 
 ## License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). For more details, please check the `LICENSE` file.
+This project is licensed under the [MIT License](https://github.com/mrnoise6848). For more details, please check the `LICENSE` file.
 
 ---
