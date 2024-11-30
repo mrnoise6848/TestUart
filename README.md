@@ -19,7 +19,7 @@ This project is an Android application for sending a phone number to a server an
 
 ## Prerequisites
 To run the project, you need the following:
-- Android Studio 4.0 or higher.
+- Android Studio 8.0 or higher.
 - Java Development Kit (JDK) 8 or higher.
 
 ## Installation and Setup
