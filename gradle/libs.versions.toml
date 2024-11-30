@@ -8,6 +8,15 @@ espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.8.6"
 activityCompose = "1.9.2"
 composeBom = "2024.04.01"
+retrofit = "2.11.0"
+daggerHilt = "2.51.1"
+kps = "1.9.0-1.0.13"
+rxRetrofitAdapter = "3.0.0"
+room = "2.6.1"
+rxAndroid = "3.0.2"
+rxJava = "3.1.8"
+hilt = "1.2.0"
+usbSerial = "3.8.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -25,7 +34,24 @@ androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-man
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 
+
+com-quareup-retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+com-quareup-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+rx-java = { group = "io.reactivex.rxjava3", name = "rxjava", version.ref = "rxJava" }
+rx-android = { group = "io.reactivex.rxjava3", name = "rxandroid", version.ref = "rxAndroid" }
+rx-retrofitAdapter = { group = "com.github.akarnokd", name = "rxjava3-retrofit-adapter", version.ref = "rxRetrofitAdapter" }
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+room-rxjava = { group = "androidx.room", name = "room-rxjava3", version.ref = "room" }
+com-google-hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "daggerHilt" }
+com-google-hilt-compile = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "daggerHilt" }
+androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt" }
+com-sbserial = { group = "com.github.mik3y", name = "usb-serial-for-android", version.ref = "usbSerial" }
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 
+#my plugins
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "daggerHilt" }
+kps = { id = "com.google.devtools.ksp", version.ref = "kps" }
