@@ -1,6 +1,3 @@
-Of course! Here's an English version of the `README.md` file for your project:
-
----
 
 # Phone Authentication Project
 
