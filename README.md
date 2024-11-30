@@ -34,6 +34,7 @@ To run the project, you need the following:
 3. **Add permissions**:
    Make sure to add the following permissions to your `AndroidManifest.xml` file:
    ```xml
+   <uses-permission android:name="android.permission.INTERNET" />
    <uses-permission android:name="android.permission.USB_PERMISSION" />
    <uses-feature android:name="android.hardware.usb.host" />
    ```
